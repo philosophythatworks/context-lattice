@@ -8,7 +8,7 @@
 
 이 저장소에는 논문 전문(한국어 · 영어), 무의존성 자율신경 좌표 엔진(`src/coord/`), 그리고 1초 재현 벤치마크(`benchmark/`)가 함께 들어 있어요.
 
-- 📄 **논문 전문 읽기**: [한국어 논문 (`Markdown`)](paper/context-coordinates.ko.md) ([**PDF**](paper/context-coordinates.ko.pdf)) · [English Paper (`Markdown`)](paper/context-coordinates.en.md) ([**PDF**](paper/context-coordinates.en.pdf)) · **DOI**: [`10.5281/zenodo.23377916`](https://doi.org/10.5281/zenodo.23377916)
+- 📄 **논문 전문 읽기**: [한국어 논문 (`Markdown`)](paper/context-coordinates.ko.md) ([**PDF 다운로드**](https://github.com/philosophythatworks/context-lattice/releases/latest/download/context-coordinates.ko.pdf)) · [English Paper (`Markdown`)](paper/context-coordinates.en.md) ([**PDF Download**](https://github.com/philosophythatworks/context-lattice/releases/latest/download/context-coordinates.en.pdf)) · **Zenodo (DOI)**: [`10.5281/zenodo.23377916`](https://doi.org/10.5281/zenodo.23377916)
 - 🎬 **1분 핵심 개념 영상 (YouTube)**: [**영상 보러 가기 (`youtu.be/LwF-UjvCUug`)**](https://youtu.be/LwF-UjvCUug) *("AI sees through a small window — Fold what's done, unfold any of it, word for word.")*
 
 [![Context Lattice — 1분 핵심 개념 영상 (YouTube)](https://img.youtube.com/vi/LwF-UjvCUug/maxresdefault.jpg)](https://youtu.be/LwF-UjvCUug)

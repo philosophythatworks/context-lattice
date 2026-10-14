@@ -8,7 +8,7 @@
 
 This repository contains the full research paper (in English and Korean), the deterministic coordinate engine (`src/coord/`), and the one-second reproducible benchmark suite (`benchmark/`).
 
-- 📄 **Read the Full Paper**: [English Paper (`Markdown`)](paper/context-coordinates.en.md) ([**PDF**](paper/context-coordinates.en.pdf)) · [한국어 논문 (`Markdown`)](paper/context-coordinates.ko.md) ([**PDF**](paper/context-coordinates.ko.pdf)) · **DOI**: [`10.5281/zenodo.23377916`](https://doi.org/10.5281/zenodo.23377916)
+- 📄 **Read the Full Paper**: [English Paper (`Markdown`)](paper/context-coordinates.en.md) ([**PDF Download**](https://github.com/philosophythatworks/context-lattice/releases/latest/download/context-coordinates.en.pdf)) · [한국어 논문 (`Markdown`)](paper/context-coordinates.ko.md) ([**PDF 다운로드**](https://github.com/philosophythatworks/context-lattice/releases/latest/download/context-coordinates.ko.pdf)) · **Zenodo (DOI)**: [`10.5281/zenodo.23377916`](https://doi.org/10.5281/zenodo.23377916)
 - 🎬 **1-Minute Overview Video (YouTube)**: [**Watch on YouTube (`youtu.be/LwF-UjvCUug`)**](https://youtu.be/LwF-UjvCUug) *("AI sees through a small window — Fold what's done, unfold any of it, word for word.")*
 
 [![Context Lattice — 1-Minute Overview Video (YouTube)](https://img.youtube.com/vi/LwF-UjvCUug/maxresdefault.jpg)](https://youtu.be/LwF-UjvCUug)
