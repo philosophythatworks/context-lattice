@@ -1,0 +1,48 @@
+# REUSE.toml: copyright and licence information for every file in Context Lattice
+# (REUSE Specification 3.2, https://reuse.software/).
+
+version = 1
+
+# Engine & benchmark code: AGPL-3.0-only by default.
+[[annotations]]
+path = "**"
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Hwang Dae Jin (Philosophy That Works)"
+SPDX-License-Identifier = "AGPL-3.0-only"
+
+# Small project files, free for anyone to copy.
+[[annotations]]
+path = [
+  ".gitignore",
+  "REUSE.toml",
+]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Hwang Dae Jin (Philosophy That Works)"
+SPDX-License-Identifier = "CC0-1.0"
+
+# Research papers, documentation, interactive simulators, and project policy files: CC-BY-4.0.
+[[annotations]]
+path = [
+  "README.md",
+  "README.ko.md",
+  "CITATION.cff",
+  "CHANGELOG.md",
+  "CONTRIBUTING.md",
+  "SECURITY.md",
+  "COMMERCIAL.md",
+  "TRADEMARKS.md",
+  "NOTICE",
+  "paper/**",
+]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Hwang Dae Jin (Philosophy That Works)"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Conformance material & canonical coordinate fixtures: CC0-1.0, always.
+[[annotations]]
+path = [
+  "test/fixtures/**",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Hwang Dae Jin (Philosophy That Works)"
+SPDX-License-Identifier = "CC0-1.0"

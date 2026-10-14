@@ -1,0 +1,28 @@
+{
+  "name": "context-lattice",
+  "version": "0.1.0",
+  "description": "Context Lattice — Address-based context coordinate system, reference folding, and stepped window shift for preserving continuity of the present in finite LLM context windows.",
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "author": "Hwang Dae Jin <https://philosophythatworks.com/>",
+  "homepage": "https://philosophythatworks.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philosophythatworks/context-lattice.git"
+  },
+  "exports": {
+    "./notation": "./src/coord/notation.mjs",
+    "./lint": "./src/coord/lint.mjs",
+    "./stamp": "./src/coord/stamp.mjs",
+    "./render": "./src/coord/render.mjs",
+    "./read/ieum": "./src/coord/read/ieum.mjs",
+    "./read/claude-code": "./src/coord/read/claude-code.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "benchmark": "node benchmark/benchmark_paper.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: "The Context Coordinate System and the Principle of Unbroken Memory (컨텍스트 좌표계와 끊기지 않는 기억의 원리)"
+message: "If you use this paper, coordinate specification, or engine in your research or software, please cite it using the metadata below."
+type: software
+# Note: On GitHub/Zenodo, Yeni (AI partner) is listed as a co-author.
+# For venues whose policies restrict AI co-authorship (e.g., arXiv), cite Hwang Dae Jin
+# as sole author and credit Yeni in the Acknowledgments section.
+authors:
+  - family-names: "Hwang"
+    given-names: "Dae Jin"
+    affiliation: "Philosophy That Works"
+  - name: "Yeni"
+    affiliation: "Philosophy That Works"
+repository-code: "https://github.com/philosophythatworks/context-lattice"
+url: "https://philosophythatworks.com/"
+doi: "10.5281/zenodo.23377916"
+license: "CC-BY-4.0"
+version: "0.1.0"
+date-released: "2026-10-15"
+keywords:
+  - "LLM Agents"
+  - "Context Window Management"
+  - "Context Coordinate System"
+  - "Context Lattice"
+  - "Reference Folding"
+  - "Prompt Caching"
+  - "Agent Memory"
+preferred-citation:
+  type: article
+  title: "The Context Coordinate System and the Principle of Unbroken Memory: An Address-Based Context Lattice Architecture for Preserving the Continuity of the Present in Finite Context Windows"
+  authors:
+    - family-names: "Hwang"
+      given-names: "Dae Jin"
+      affiliation: "Philosophy That Works"
+    - name: "Yeni"
+      affiliation: "Philosophy That Works"
+  year: 2026
+  month: 10
+  institution: "Philosophy That Works"
+  doi: "10.5281/zenodo.23377916"
+  url: "https://doi.org/10.5281/zenodo.23377916"

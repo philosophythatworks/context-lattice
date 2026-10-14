@@ -1,0 +1,2925 @@
+{
+ "house": "□",
+ "key": "□",
+ "lettersKnown": false,
+ "people": [
+  {
+   "id": "dad",
+   "n": "1",
+   "name": "사용자"
+  },
+  {
+   "id": "yeni-X",
+   "n": "□",
+   "name": "에이전트(X)",
+   "agent": true
+  },
+  {
+   "id": "yeni-Y",
+   "n": "□",
+   "name": "에이전트(Y)",
+   "agent": true
+  }
+ ],
+ "flows": [
+  {
+   "id": "X",
+   "base": "dad",
+   "startTurn": 149
+  },
+  {
+   "id": "Y",
+   "base": "dad"
+  }
+ ],
+ "items": [
+  {
+   "flow": "X",
+   "t0": 1791795822435,
+   "id": "L1704",
+   "what": "speak",
+   "who": "dad",
+   "label": "말"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795822435,
+   "id": "L1705",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795822435,
+   "id": "L1706",
+   "what": "quiet",
+   "label": "file-history-snapshot"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795822435,
+   "id": "L1707",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795822435,
+   "id": "L1708",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2",
+   "label": "이름"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795822435,
+   "id": "L1709",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2",
+   "about": "yeni-X",
+   "label": "이름"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795822435,
+   "id": "L1710",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795822435,
+   "id": "L1711",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795822435,
+   "id": "L1712",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795847062,
+   "id": "L1713",
+   "what": "think",
+   "who": "yeni-X",
+   "step": "msg_011Cfx5EyPx111g7e26VeBoo",
+   "label": "생각"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795850557,
+   "id": "L1714",
+   "what": "call",
+   "who": "yeni-X",
+   "step": "msg_011Cfx5EyPx111g7e26VeBoo",
+   "call": "toolu_01GL69eq5SBoU74BK1J86ge7",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795851418,
+   "id": "L1715",
+   "what": "result",
+   "call": "toolu_01GL69eq5SBoU74BK1J86ge7",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795851421,
+   "id": "L1716",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795884996,
+   "id": "L1717",
+   "what": "call",
+   "who": "yeni-X",
+   "step": "msg_011Cfx5H6n1gQ5zgAzPXPB5f",
+   "call": "toolu_01WuFGkbTUSACUTmMtVq44ic",
+   "subs": 4,
+   "label": "Workflow"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795885818,
+   "id": "L1718",
+   "what": "result",
+   "call": "toolu_01WuFGkbTUSACUTmMtVq44ic",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795885825,
+   "id": "L1719",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795885825,
+   "id": "L1720",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795885825,
+   "id": "L1721",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2",
+   "label": "이름"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795885825,
+   "id": "L1722",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2",
+   "about": "yeni-X",
+   "label": "이름"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795885825,
+   "id": "L1723",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795885825,
+   "id": "L1724",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795885825,
+   "id": "L1725",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795890647,
+   "id": "L1726",
+   "what": "think",
+   "who": "yeni-X",
+   "step": "msg_011Cfx5Ke7UjgpCsam2nTa3L",
+   "label": "생각"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795892143,
+   "id": "L1727",
+   "what": "call",
+   "who": "yeni-X",
+   "step": "msg_011Cfx5Ke7UjgpCsam2nTa3L",
+   "call": "toolu_01P1YTW6ySovDMd6s7jiVoZY",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795892870,
+   "id": "L1728",
+   "what": "result",
+   "call": "toolu_01P1YTW6ySovDMd6s7jiVoZY",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795892874,
+   "id": "L1729",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795900505,
+   "id": "L1730",
+   "what": "think",
+   "who": "yeni-X",
+   "step": "msg_011Cfx5LA3nbi9YfKyVAZSjY",
+   "label": "생각"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795900514,
+   "id": "L1731",
+   "what": "speak",
+   "who": "yeni-X",
+   "step": "msg_011Cfx5LA3nbi9YfKyVAZSjY",
+   "label": "말"
+  },
+  {
+   "flow": "X",
+   "t0": 1791795902339,
+   "id": "L1732",
+   "what": "stop",
+   "who": "yeni-X"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796192136,
+   "id": "L1733",
+   "what": "quiet",
+   "label": "queue-operation"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796192227,
+   "id": "L1734",
+   "what": "quiet",
+   "label": "queue-operation"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796192230,
+   "id": "L1735",
+   "what": "arrive",
+   "call": "toolu_01WuFGkbTUSACUTmMtVq44ic",
+   "label": "서브의 돌려줌"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796192230,
+   "id": "L1736",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796192230,
+   "id": "L1737",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2",
+   "label": "이름"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796192230,
+   "id": "L1738",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2",
+   "about": "yeni-X",
+   "label": "이름"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796192230,
+   "id": "L1739",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796192230,
+   "id": "L1740",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796192230,
+   "id": "L1741",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796202540,
+   "id": "L1742",
+   "what": "think",
+   "who": "yeni-X",
+   "step": "msg_011Cfx5iEbk6ZndN9cWPYSa4",
+   "label": "생각"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796211424,
+   "id": "L1743",
+   "what": "call",
+   "who": "yeni-X",
+   "step": "msg_011Cfx5iEbk6ZndN9cWPYSa4",
+   "call": "toolu_01MbSHQHG8HrHKCahp7Dm3b5",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796212322,
+   "id": "L1744",
+   "what": "result",
+   "call": "toolu_01MbSHQHG8HrHKCahp7Dm3b5",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796212325,
+   "id": "L1745",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796215319,
+   "id": "L1746",
+   "what": "think",
+   "who": "yeni-X",
+   "step": "msg_011Cfx5jiCxMHtaTcHvbJKKp",
+   "label": "생각"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796226419,
+   "id": "L1747",
+   "what": "call",
+   "who": "yeni-X",
+   "step": "msg_011Cfx5jiCxMHtaTcHvbJKKp",
+   "call": "toolu_01FeAdJfGuN5FNdq1jMcenp9",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796227366,
+   "id": "L1748",
+   "what": "result",
+   "call": "toolu_01FeAdJfGuN5FNdq1jMcenp9",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796227370,
+   "id": "L1749",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796237897,
+   "id": "L1750",
+   "what": "speak",
+   "who": "yeni-X",
+   "step": "msg_011Cfx5kp5SdgkDTg1rVBV2x",
+   "label": "말"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796237950,
+   "id": "L1751",
+   "what": "stop",
+   "who": "yeni-X"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796237950,
+   "id": "L1752",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796237950,
+   "id": "L1753",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2",
+   "label": "이름"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796237950,
+   "id": "L1754",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2",
+   "about": "yeni-X",
+   "label": "이름"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796237950,
+   "id": "L1755",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796237950,
+   "id": "L1756",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796237950,
+   "id": "L1757",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796346489,
+   "id": "L1758",
+   "what": "quiet",
+   "label": "queue-operation"
+  },
+  {
+   "flow": "X",
+   "t0": 1791796346490,
+   "id": "L1759",
+   "what": "quiet",
+   "label": "queue-operation"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075780,
+   "id": "L2016",
+   "what": "speak",
+   "who": "dad",
+   "label": "말"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075780,
+   "id": "L2017",
+   "what": "preset",
+   "key": "environment",
+   "value": "f871b0796a97",
+   "about": "yeni-Y",
+   "label": "environment"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075780,
+   "id": "L2018",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075780,
+   "id": "L2019",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075780,
+   "id": "L2020",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075780,
+   "id": "L2021",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075798,
+   "id": "L2022",
+   "what": "preset",
+   "key": "instructions",
+   "value": "3e9bbd319abb",
+   "about": "yeni-Y",
+   "label": "instructions"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075798,
+   "id": "L2023",
+   "what": "quiet",
+   "label": "file-history-snapshot"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075798,
+   "id": "L2024",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075798,
+   "id": "L2025",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075798,
+   "id": "L2026",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075798,
+   "id": "L2027",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075798,
+   "id": "L2028",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797075798,
+   "id": "L2029",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797091332,
+   "id": "L2030",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx6qWJd9bjXh8Ue2MUBz",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797101861,
+   "id": "L2031",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx6qWJd9bjXh8Ue2MUBz",
+   "call": "toolu_01SVr36wkZFXk4Gshyme2hbH",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797105681,
+   "id": "L2032",
+   "what": "result",
+   "call": "toolu_01SVr36wkZFXk4Gshyme2hbH",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797105687,
+   "id": "L2033",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797107994,
+   "id": "L2034",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx6sZXuU8RrwARESR9UT",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797113422,
+   "id": "L2035",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx6sZXuU8RrwARESR9UT",
+   "call": "toolu_014wVJQSQvq98nvd5JPJDn6Y",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797114159,
+   "id": "L2036",
+   "what": "result",
+   "call": "toolu_014wVJQSQvq98nvd5JPJDn6Y",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797114163,
+   "id": "L2037",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797122433,
+   "id": "L2038",
+   "what": "speak",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx6tBZ6Hk7EEZ4zhuqqw",
+   "label": "말"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797125998,
+   "id": "L2039",
+   "what": "stop",
+   "who": "yeni-Y"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797157454,
+   "id": "L2040",
+   "what": "quiet",
+   "label": "queue-operation"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797157455,
+   "id": "L2041",
+   "what": "quiet",
+   "label": "queue-operation"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797157455,
+   "id": "L2042",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797157455,
+   "id": "L2043",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797157455,
+   "id": "L2044",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797157455,
+   "id": "L2045",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797157455,
+   "id": "L2046",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797157455,
+   "id": "L2047",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239098,
+   "id": "L2048",
+   "what": "quiet",
+   "label": "compact_boundary"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239094,
+   "id": "L2049",
+   "what": "swap",
+   "label": "압축 요약(교체)"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797157459,
+   "id": "L2050",
+   "what": "quiet",
+   "label": "명령의 앞뒤 글"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797157459,
+   "id": "L2051",
+   "what": "outside",
+   "who": "dad",
+   "label": "/compact"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239654,
+   "id": "L2052",
+   "what": "quiet",
+   "label": "명령의 앞뒤 글"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239534,
+   "id": "L2053",
+   "what": "preset",
+   "key": "compact_file_reference:/private/tmp/claude-501/-workspace-ieum/3b374561-dfd8-495e-84b9-404c39c3cdd2/scratchpad/check-digest.txt",
+   "value": "770f0c3b3591",
+   "about": "yeni-Y",
+   "label": "compact_file_reference"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239534,
+   "id": "L2054",
+   "what": "preset",
+   "key": "file:/private/tmp/claude-501/-workspace-ieum/543747a7-ee6a-4ee2-8750-d0d6c2779f4c/scratchpad/sep.html",
+   "value": "40e8fd56279d",
+   "about": "yeni-Y",
+   "label": "file"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239534,
+   "id": "L2055",
+   "what": "preset",
+   "key": "compact_file_reference:/workspace/ieum-coord/docs/research/69-agent-os.md",
+   "value": "cfaab5b13697",
+   "about": "yeni-Y",
+   "label": "compact_file_reference"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239534,
+   "id": "L2056",
+   "what": "preset",
+   "key": "compact_file_reference:/workspace/ieum-coord/docs/research/70-conversation-principles.md",
+   "value": "36cdf982aea3",
+   "about": "yeni-Y",
+   "label": "compact_file_reference"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239534,
+   "id": "L2057",
+   "what": "preset",
+   "key": "compact_file_reference:/workspace/ieum-coord/docs/research/72-context-coordinates.md",
+   "value": "4588778adb2f",
+   "about": "yeni-Y",
+   "label": "compact_file_reference"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239537,
+   "id": "L2058",
+   "what": "preset",
+   "key": "deferred_tools_delta",
+   "value": "bb9bf4ab786d",
+   "about": "yeni-Y",
+   "label": "deferred_tools_delta"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239537,
+   "id": "L2059",
+   "what": "preset",
+   "key": "agent_listing_delta",
+   "value": "d4dcbfe959da",
+   "about": "yeni-Y",
+   "label": "agent_listing_delta"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239537,
+   "id": "L2060",
+   "what": "preset",
+   "key": "mcp_instructions_delta",
+   "value": "9c6a9e3e95d7",
+   "about": "yeni-Y",
+   "label": "mcp_instructions_delta"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239537,
+   "id": "L2061",
+   "what": "preset",
+   "key": "environment",
+   "value": "597894bb9bd6",
+   "about": "yeni-Y",
+   "label": "environment"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239537,
+   "id": "L2062",
+   "what": "preset",
+   "key": "model",
+   "value": "29bccbfcce86",
+   "about": "yeni-Y",
+   "label": "model"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239537,
+   "id": "L2063",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239537,
+   "id": "L2064",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239537,
+   "id": "L2065",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239537,
+   "id": "L2066",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239537,
+   "id": "L2067",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797239537,
+   "id": "L2068",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278468,
+   "id": "L2069",
+   "what": "quiet",
+   "label": "queue-operation"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278468,
+   "id": "L2070",
+   "what": "quiet",
+   "label": "queue-operation"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278478,
+   "id": "L2071",
+   "what": "speak",
+   "who": "dad",
+   "label": "말"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278478,
+   "id": "L2072",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278478,
+   "id": "L2073",
+   "what": "quiet",
+   "label": "file-history-snapshot"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278511,
+   "id": "L2074",
+   "what": "preset",
+   "key": "instructions",
+   "value": "c6e624c403fa",
+   "about": "yeni-Y",
+   "label": "instructions"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278511,
+   "id": "L2075",
+   "what": "preset",
+   "key": "session_context",
+   "value": "858afe4e335f",
+   "about": "yeni-Y",
+   "label": "session_context"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278511,
+   "id": "L2076",
+   "what": "preset",
+   "key": "date",
+   "value": "6b42a2634fb5",
+   "about": "yeni-Y",
+   "label": "date"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278512,
+   "id": "L2077",
+   "what": "preset",
+   "key": "credential_org",
+   "value": "083c21b1b731",
+   "about": "yeni-Y",
+   "label": "credential_org"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278512,
+   "id": "L2078",
+   "what": "preset",
+   "key": "remote_session_change",
+   "value": "ecd5ceec07f2",
+   "about": "yeni-Y",
+   "label": "remote_session_change"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278513,
+   "id": "L2079",
+   "what": "preset",
+   "key": "prompt_snapshot",
+   "value": "f6857ae7d650",
+   "about": "yeni-Y",
+   "label": "prompt_snapshot"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278513,
+   "id": "L2080",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278513,
+   "id": "L2081",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278513,
+   "id": "L2082",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278513,
+   "id": "L2083",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278513,
+   "id": "L2084",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797278513,
+   "id": "L2085",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797283073,
+   "id": "L2086",
+   "what": "preset",
+   "key": "deferred_tools_record",
+   "value": "f1863b7284ce",
+   "about": "yeni-Y",
+   "label": "deferred_tools_record"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797283073,
+   "id": "L2087",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx76JB36EbhGuALsuqPw",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797283674,
+   "id": "L2088",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx76JB36EbhGuALsuqPw",
+   "call": "toolu_018dFoJcbVWmw41QT9h6zsDs",
+   "subs": 0,
+   "label": "Read"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797283704,
+   "id": "L2089",
+   "what": "result",
+   "call": "toolu_018dFoJcbVWmw41QT9h6zsDs",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797285031,
+   "id": "L2090",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx76JB36EbhGuALsuqPw",
+   "call": "toolu_01FeUpHb6ESANVhUdj2sMFet",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797285031,
+   "id": "L2091",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797285031,
+   "id": "L2092",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797285031,
+   "id": "L2093",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797285031,
+   "id": "L2094",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797285031,
+   "id": "L2095",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797285031,
+   "id": "L2096",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797286238,
+   "id": "L2097",
+   "what": "result",
+   "call": "toolu_01FeUpHb6ESANVhUdj2sMFet",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797286239,
+   "id": "L2098",
+   "what": "preset",
+   "key": "prompt_snapshot",
+   "value": "2282069d70d6",
+   "about": "yeni-Y",
+   "label": "prompt_snapshot"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797286241,
+   "id": "L2099",
+   "what": "preset",
+   "key": "auto_mode",
+   "value": "9e2b47c1f471",
+   "about": "yeni-Y",
+   "label": "auto_mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797286241,
+   "id": "L2100",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797286241,
+   "id": "L2101",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797286241,
+   "id": "L2102",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797286241,
+   "id": "L2103",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797286241,
+   "id": "L2104",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797286241,
+   "id": "L2105",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797286241,
+   "id": "L2106",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797287717,
+   "id": "L2107",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx76sBuStTAsiaj6Q9QZ",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797288126,
+   "id": "L2108",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx76sBuStTAsiaj6Q9QZ",
+   "call": "toolu_017h28EW7cs2VTZhouetSZBt",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797288710,
+   "id": "L2109",
+   "what": "result",
+   "call": "toolu_017h28EW7cs2VTZhouetSZBt",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797288712,
+   "id": "L2110",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797293202,
+   "id": "L2111",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7743GEGm5aCCdkZuAm",
+   "call": "toolu_019df3JHX6SYaAm6JKkoeHto",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797293892,
+   "id": "L2112",
+   "what": "result",
+   "call": "toolu_019df3JHX6SYaAm6JKkoeHto",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797293894,
+   "id": "L2113",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797295472,
+   "id": "L2114",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx77SReqM7unmnkMEffk",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797295776,
+   "id": "L2115",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx77SReqM7unmnkMEffk",
+   "call": "toolu_01D6UDsg9sje57UygRSDhWiT",
+   "subs": 0,
+   "label": "Read"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797295799,
+   "id": "L2116",
+   "what": "result",
+   "call": "toolu_01D6UDsg9sje57UygRSDhWiT",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797295801,
+   "id": "L2117",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797295801,
+   "id": "L2118",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797295801,
+   "id": "L2119",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797295801,
+   "id": "L2120",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797295801,
+   "id": "L2121",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797295801,
+   "id": "L2122",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797295801,
+   "id": "L2123",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797297671,
+   "id": "L2124",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx77a8Ft74tENZc3jkQr",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797298836,
+   "id": "L2125",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx77a8Ft74tENZc3jkQr",
+   "call": "toolu_011LEKNJvmhMvBZXuo7caRhu",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797299354,
+   "id": "L2126",
+   "what": "result",
+   "call": "toolu_011LEKNJvmhMvBZXuo7caRhu",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797299356,
+   "id": "L2127",
+   "what": "notice",
+   "label": "silent_turn_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797299356,
+   "id": "L2128",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797304907,
+   "id": "L2129",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx77qK4hsh7aoARNMi3P",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797304913,
+   "id": "L2130",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx77qK4hsh7aoARNMi3P",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797304916,
+   "id": "L2131",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx77qK4hsh7aoARNMi3P",
+   "call": "toolu_01KAeXqpiccCvUKxbEu62Ld9",
+   "subs": 0,
+   "label": "Read"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797304941,
+   "id": "L2132",
+   "what": "result",
+   "call": "toolu_01KAeXqpiccCvUKxbEu62Ld9",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797304945,
+   "id": "L2133",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797304945,
+   "id": "L2134",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797304945,
+   "id": "L2135",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797304945,
+   "id": "L2136",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797304945,
+   "id": "L2137",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797304945,
+   "id": "L2138",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797304945,
+   "id": "L2139",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797307021,
+   "id": "L2140",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx78FJhVsAj4kMfkeSs9",
+   "call": "toolu_019ZnhCzBZGmHtvZQ8VesFzm",
+   "subs": 0,
+   "label": "Read"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797307055,
+   "id": "L2141",
+   "what": "result",
+   "call": "toolu_019ZnhCzBZGmHtvZQ8VesFzm",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797307059,
+   "id": "L2142",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797307059,
+   "id": "L2143",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797307059,
+   "id": "L2144",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797307059,
+   "id": "L2145",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797307059,
+   "id": "L2146",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797307059,
+   "id": "L2147",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797307059,
+   "id": "L2148",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797308906,
+   "id": "L2149",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx78QGDBjN6ieUBJZJtB",
+   "call": "toolu_01EJWXygUscP8BvLYoBcrRrM",
+   "subs": 0,
+   "label": "Read"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797308934,
+   "id": "L2150",
+   "what": "result",
+   "call": "toolu_01EJWXygUscP8BvLYoBcrRrM",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797308938,
+   "id": "L2151",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797308938,
+   "id": "L2152",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797308938,
+   "id": "L2153",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797308938,
+   "id": "L2154",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797308938,
+   "id": "L2155",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797308938,
+   "id": "L2156",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797308938,
+   "id": "L2157",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797310491,
+   "id": "L2158",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx78YDSbkqVmpFjdoqUP",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797310561,
+   "id": "L2159",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx78YDSbkqVmpFjdoqUP",
+   "call": "toolu_01TxPdffAMu8EzuZj68MQVwA",
+   "subs": 0,
+   "label": "Read"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797311045,
+   "id": "L2160",
+   "what": "result",
+   "call": "toolu_01TxPdffAMu8EzuZj68MQVwA",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797311046,
+   "id": "L2161",
+   "what": "notice",
+   "label": "read_truncation_notice"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797311052,
+   "id": "L2162",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797311052,
+   "id": "L2163",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797311052,
+   "id": "L2164",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797311052,
+   "id": "L2165",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797311052,
+   "id": "L2166",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797311052,
+   "id": "L2167",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797311052,
+   "id": "L2168",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797313137,
+   "id": "L2169",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx78hv6QQwoSwJG1BUWP",
+   "call": "toolu_01SNiEvmhE5QdUQ4keob8kX8",
+   "subs": 0,
+   "label": "Read"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797313169,
+   "id": "L2170",
+   "what": "result",
+   "call": "toolu_01SNiEvmhE5QdUQ4keob8kX8",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797313173,
+   "id": "L2171",
+   "what": "notice",
+   "label": "silent_turn_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797313173,
+   "id": "L2172",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797313173,
+   "id": "L2173",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797313173,
+   "id": "L2174",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797313173,
+   "id": "L2175",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797313173,
+   "id": "L2176",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797313173,
+   "id": "L2177",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797313173,
+   "id": "L2178",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797315082,
+   "id": "L2179",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx78rT4LsasPypwQpmW8",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797315086,
+   "id": "L2180",
+   "what": "speak",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx78rT4LsasPypwQpmW8",
+   "label": "말"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797315900,
+   "id": "L2181",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx78rT4LsasPypwQpmW8",
+   "call": "toolu_01DwctkYZix2tPdu9ZRfLPVv",
+   "subs": 0,
+   "label": "Read"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797315931,
+   "id": "L2182",
+   "what": "result",
+   "call": "toolu_01DwctkYZix2tPdu9ZRfLPVv",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797315935,
+   "id": "L2183",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797315935,
+   "id": "L2184",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797315935,
+   "id": "L2185",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797315935,
+   "id": "L2186",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797315935,
+   "id": "L2187",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797315935,
+   "id": "L2188",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797315935,
+   "id": "L2189",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797317956,
+   "id": "L2190",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7947Xj1iqsTzr27ypz",
+   "call": "toolu_01WnWANEZVNaNFUXSo75jvUz",
+   "subs": 0,
+   "label": "Read"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797317988,
+   "id": "L2191",
+   "what": "result",
+   "call": "toolu_01WnWANEZVNaNFUXSo75jvUz",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797317991,
+   "id": "L2192",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797317991,
+   "id": "L2193",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797317991,
+   "id": "L2194",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797317991,
+   "id": "L2195",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797317991,
+   "id": "L2196",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797317991,
+   "id": "L2197",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797317991,
+   "id": "L2198",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797319977,
+   "id": "L2199",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx79CtsgomLKotPmBxVq",
+   "call": "toolu_01DNgUQJswxExA1ihgkdu8Uc",
+   "subs": 0,
+   "label": "Read"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797320005,
+   "id": "L2200",
+   "what": "result",
+   "call": "toolu_01DNgUQJswxExA1ihgkdu8Uc",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797320008,
+   "id": "L2201",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797320008,
+   "id": "L2202",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797320008,
+   "id": "L2203",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797320008,
+   "id": "L2204",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797320008,
+   "id": "L2205",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797320008,
+   "id": "L2206",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797320008,
+   "id": "L2207",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797321848,
+   "id": "L2208",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx79MZ2AhGCGdsKZLyuK",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797323448,
+   "id": "L2209",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx79MZ2AhGCGdsKZLyuK",
+   "call": "toolu_01VUYYejfx1KaGq4xvLTpL66",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797323478,
+   "id": "L2210",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx79MZ2AhGCGdsKZLyuK",
+   "call": "toolu_01J6V5Ey1X772NXvbfe5HayY",
+   "subs": 0,
+   "label": "ListAgents"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797324119,
+   "id": "L2211",
+   "what": "result",
+   "call": "toolu_01VUYYejfx1KaGq4xvLTpL66",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797324131,
+   "id": "L2212",
+   "what": "result",
+   "call": "toolu_01J6V5Ey1X772NXvbfe5HayY",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797324133,
+   "id": "L2213",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797384630,
+   "id": "L2214",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx79fCes4zqmxiFG927u",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797388148,
+   "id": "L2215",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx79fCes4zqmxiFG927u",
+   "call": "toolu_01UR2H3zM6K5XYE8rcy18ohX",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797388690,
+   "id": "L2216",
+   "what": "result",
+   "call": "toolu_01UR2H3zM6K5XYE8rcy18ohX",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797388692,
+   "id": "L2217",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797388692,
+   "id": "L2218",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797388692,
+   "id": "L2219",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797388692,
+   "id": "L2220",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797388692,
+   "id": "L2221",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797388692,
+   "id": "L2222",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797388692,
+   "id": "L2223",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797391526,
+   "id": "L2224",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7EReyM7nL64sw4C8DQ",
+   "call": "toolu_01FygkFdC9pxZUWk9UPoH4sN",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797392005,
+   "id": "L2225",
+   "what": "result",
+   "call": "toolu_01FygkFdC9pxZUWk9UPoH4sN",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797392007,
+   "id": "L2226",
+   "what": "notice",
+   "label": "silent_turn_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797392008,
+   "id": "L2227",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797399784,
+   "id": "L2228",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7EfPDB8dQWvqVhUHz3",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797411511,
+   "id": "L2229",
+   "what": "speak",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7EfPDB8dQWvqVhUHz3",
+   "label": "말"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797416037,
+   "id": "L2230",
+   "what": "stop",
+   "who": "yeni-Y"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797666610,
+   "id": "L2231",
+   "what": "quiet",
+   "label": "queue-operation"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797666612,
+   "id": "L2232",
+   "what": "quiet",
+   "label": "queue-operation"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797666626,
+   "id": "L2233",
+   "what": "speak",
+   "who": "dad",
+   "label": "말"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797666625,
+   "id": "L2234",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797666625,
+   "id": "L2235",
+   "what": "quiet",
+   "label": "file-history-snapshot"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797666625,
+   "id": "L2236",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797666625,
+   "id": "L2237",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797666625,
+   "id": "L2238",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 2 (fork)",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797666625,
+   "id": "L2239",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797666625,
+   "id": "L2240",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797666625,
+   "id": "L2241",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797700543,
+   "id": "L2242",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7axE3UbHygmfHzTMRu",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797701104,
+   "id": "L2243",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7axE3UbHygmfHzTMRu",
+   "call": "toolu_017NmtLMrtCDNqDEerKHkTk8",
+   "subs": 0,
+   "label": "ToolSearch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797701135,
+   "id": "L2244",
+   "what": "result",
+   "call": "toolu_017NmtLMrtCDNqDEerKHkTk8",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797701140,
+   "id": "L2245",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797701140,
+   "id": "L2246",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 3",
+   "label": "이름",
+   "call": "toolu_01AQqSQAK3XxAWApYtVQVXw4"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797701140,
+   "id": "L2247",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 3",
+   "about": "yeni-Y",
+   "label": "이름",
+   "call": "toolu_01AQqSQAK3XxAWApYtVQVXw4"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797701140,
+   "id": "L2248",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 3",
+   "label": "이름",
+   "call": "toolu_01AQqSQAK3XxAWApYtVQVXw4"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797702730,
+   "id": "L2249",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7dT7fKxzmV7Dsdphz8",
+   "call": "toolu_01AQqSQAK3XxAWApYtVQVXw4",
+   "subs": 0,
+   "label": "mcp__ccd_session_mgmt__set_session_title"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797702747,
+   "id": "L2250",
+   "what": "result",
+   "call": "toolu_01AQqSQAK3XxAWApYtVQVXw4",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797704054,
+   "id": "L2251",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7dT7fKxzmV7Dsdphz8",
+   "call": "toolu_01K91kBwnaQ82w5iQdmyZtK2",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797704737,
+   "id": "L2252",
+   "what": "result",
+   "call": "toolu_01K91kBwnaQ82w5iQdmyZtK2",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797704740,
+   "id": "L2253",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797707139,
+   "id": "L2254",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7diX8G9MHdbv9KcQdw",
+   "call": "toolu_011d6T9pXhT7VBQcJkvoysjv",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797708063,
+   "id": "L2255",
+   "what": "result",
+   "call": "toolu_011d6T9pXhT7VBQcJkvoysjv",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797708065,
+   "id": "L2256",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797709849,
+   "id": "L2257",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7dxh9eef1bja3juKjr",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797715853,
+   "id": "L2258",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7dxh9eef1bja3juKjr",
+   "call": "toolu_014jCkjxf1Qsh1U8GZyCfjRb",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797716331,
+   "id": "L2259",
+   "what": "result",
+   "call": "toolu_014jCkjxf1Qsh1U8GZyCfjRb",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797716333,
+   "id": "L2260",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797716333,
+   "id": "L2261",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797716333,
+   "id": "L2262",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 3",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797716333,
+   "id": "L2263",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 3",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797716333,
+   "id": "L2264",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797716333,
+   "id": "L2265",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797716333,
+   "id": "L2266",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797718154,
+   "id": "L2267",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7ea3RE53iibeRBit8K",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797718500,
+   "id": "L2268",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7ea3RE53iibeRBit8K",
+   "call": "toolu_01Ee8NiZztLUbYJpJV86TwHD",
+   "subs": 0,
+   "label": "Read"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797718519,
+   "id": "L2269",
+   "what": "result",
+   "call": "toolu_01Ee8NiZztLUbYJpJV86TwHD",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797718525,
+   "id": "L2270",
+   "what": "notice",
+   "label": "silent_turn_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797718525,
+   "id": "L2271",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797720097,
+   "id": "L2272",
+   "what": "speak",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7ejNVLMvzYzRChXEh3",
+   "label": "말"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797726473,
+   "id": "L2273",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7ejNVLMvzYzRChXEh3",
+   "call": "toolu_01MtZoXUTe5zB6KMSUifZSJF",
+   "subs": 0,
+   "label": "Edit"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797727114,
+   "id": "L2274",
+   "what": "quiet",
+   "label": "file-history-delta"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797727121,
+   "id": "L2275",
+   "what": "result",
+   "call": "toolu_01MtZoXUTe5zB6KMSUifZSJF",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797727124,
+   "id": "L2276",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797731359,
+   "id": "L2277",
+   "what": "preset",
+   "key": "deferred_tools_record",
+   "value": "3388281eb70c",
+   "about": "yeni-Y",
+   "label": "deferred_tools_record"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797731359,
+   "id": "L2278",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7fNMj2QWAc8uFYWoYi",
+   "call": "toolu_015EN45umCAAWpwxWKbqwpVd",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797731908,
+   "id": "L2279",
+   "what": "result",
+   "call": "toolu_015EN45umCAAWpwxWKbqwpVd",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797731910,
+   "id": "L2280",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797733611,
+   "id": "L2281",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7fidsi5fAWG1GdASzd",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797734149,
+   "id": "L2282",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7fidsi5fAWG1GdASzd",
+   "call": "toolu_01XDg9HnBNBEP5Y5SX6vSB5o",
+   "subs": 0,
+   "label": "Read"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797734159,
+   "id": "L2283",
+   "what": "result",
+   "call": "toolu_01XDg9HnBNBEP5Y5SX6vSB5o",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797734170,
+   "id": "L2284",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797734170,
+   "id": "L2285",
+   "what": "quiet",
+   "label": "last-prompt"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797734170,
+   "id": "L2286",
+   "what": "change",
+   "key": "흐름 이름",
+   "value": "컨텍스트 좌표의 원리 3",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797734170,
+   "id": "L2287",
+   "what": "change",
+   "key": "에이전트 이름",
+   "value": "컨텍스트 좌표의 원리 3",
+   "about": "yeni-Y",
+   "label": "이름"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797734170,
+   "id": "L2288",
+   "what": "quiet",
+   "label": "mode"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797734170,
+   "id": "L2289",
+   "what": "quiet",
+   "label": "atis-latch"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797734170,
+   "id": "L2290",
+   "what": "quiet",
+   "label": "history-suppression"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797737697,
+   "id": "L2291",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7ftEaPisfg6p3syWUM",
+   "call": "toolu_01CX4cKb5XZ5V5oLRaw6YsxA",
+   "subs": 0,
+   "label": "Edit"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797739287,
+   "id": "L2292",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7ftEaPisfg6p3syWUM",
+   "call": "toolu_01Cc2M8cR95KAJAAqdbYbr6M",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797739716,
+   "id": "L2293",
+   "what": "result",
+   "call": "toolu_01CX4cKb5XZ5V5oLRaw6YsxA",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797739868,
+   "id": "L2294",
+   "what": "result",
+   "call": "toolu_01Cc2M8cR95KAJAAqdbYbr6M",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797739870,
+   "id": "L2295",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797741057,
+   "id": "L2296",
+   "what": "preset",
+   "key": "deferred_tools_record",
+   "value": "a33cf55ed21e",
+   "about": "yeni-Y",
+   "label": "deferred_tools_record"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797741057,
+   "id": "L2297",
+   "what": "speak",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7gJkxWS4a6uhw3A6xy",
+   "label": "말"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797745701,
+   "id": "L2298",
+   "what": "call",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7gJkxWS4a6uhw3A6xy",
+   "call": "toolu_01TKjtwaMX51mRbhpJk5tpcw",
+   "subs": 0,
+   "label": "Bash"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797746385,
+   "id": "L2299",
+   "what": "result",
+   "call": "toolu_01TKjtwaMX51mRbhpJk5tpcw",
+   "label": "도구 결과"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797746387,
+   "id": "L2300",
+   "what": "notice",
+   "label": "total_tokens_reminder"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797754793,
+   "id": "L2301",
+   "what": "think",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7gnYYJ5VqCDneucKE4",
+   "label": "생각"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797754798,
+   "id": "L2302",
+   "what": "speak",
+   "who": "yeni-Y",
+   "step": "msg_011Cfx7gnYYJ5VqCDneucKE4",
+   "label": "말"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797757531,
+   "id": "L2303",
+   "what": "stop",
+   "who": "yeni-Y"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797856835,
+   "id": "L2304",
+   "what": "quiet",
+   "label": "queue-operation"
+  },
+  {
+   "flow": "Y",
+   "t0": 1791797856835,
+   "id": "L2305",
+   "what": "quiet",
+   "label": "queue-operation"
+  },
+  {
+   "id": "fork-X153-Y",
+   "flow": "Y",
+   "from": "X",
+   "what": "fork",
+   "t0": 1791797075779,
+   "at": {
+    "turn": 153,
+    "event": 2
+   },
+   "label": "포크 (기록 밖의 사실)"
+  }
+ ]
+}

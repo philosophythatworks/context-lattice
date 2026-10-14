@@ -1,0 +1,52 @@
+Context Lattice — The Context Coordinate System & Unbroken Memory, by Philosophy That Works
+https://github.com/philosophythatworks/context-lattice
+
+Copyright © 2026 Hwang Dae Jin (Philosophy That Works)
+
+Philosophy That Works is not yet an incorporated company. The rights
+are held by Hwang Dae Jin personally.
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, version 3 only.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero
+General Public License for more details.
+
+
+LICENCES IN THIS REPOSITORY
+
+  AGPL-3.0-only
+    The coordinate engine and benchmark scripts: all code under src/,
+    benchmark/, and test/*.mjs (REUSE.toml gives the licence of each file).
+    LICENSE is a copy of AGPL-3.0-only (the same text as
+    LICENSES/AGPL-3.0-only.txt).
+
+  CC-BY-4.0
+    The research paper in Korean and English: paper/context-coordinates.ko.md
+    and paper/context-coordinates.en.md.
+    Documentation and project policy files: README.md, README.ko.md,
+    CITATION.cff, CHANGELOG.md, CONTRIBUTING.md, SECURITY.md,
+    COMMERCIAL.md, TRADEMARKS.md and this NOTICE.
+
+  CC0-1.0
+    Conformance material and structural test fixtures: test/fixtures/.
+    Small project files: .gitignore, REUSE.toml.
+
+
+COMMERCIAL LICENCE
+
+  The coordinate engine is also available under a commercial licence from
+  the copyright holder, for uses that cannot meet the AGPL. See
+  COMMERCIAL.md, or contact us through https://philosophythatworks.com/
+
+
+NAMES
+
+  "Context Lattice", "ieum (이음)", and "Philosophy That Works" (and "PTW",
+  used as short for Philosophy That Works) identify releases and research
+  from Philosophy That Works. The licences above give no rights to these
+  names; for the AGPL-3.0-only code, this is an additional term under
+  section 7(e) of the AGPL. See TRADEMARKS.md.
