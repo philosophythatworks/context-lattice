@@ -11,6 +11,10 @@
 - 📄 **논문 전문 읽기**: [한국어 논문 (`paper/context-coordinates.ko.md`)](paper/context-coordinates.ko.md) · [English Paper (`paper/context-coordinates.en.md`)](paper/context-coordinates.en.md) · **DOI**: [`10.5281/zenodo.23377916`](https://doi.org/10.5281/zenodo.23377916)
 - 🎬 **1분 핵심 개념 영상 (Overview Video)**: [`paper/context-coordinates-overview.mp4`](paper/context-coordinates-overview.mp4) *("AI sees through a small window — Fold what's done, unfold any of it, word for word.")*
 
+Uploading context-coordinates-overview.mp4…
+
+
+
 ---
 
 ## 무엇을 하나요
