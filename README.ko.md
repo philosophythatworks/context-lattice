@@ -9,11 +9,9 @@
 이 저장소에는 논문 전문(한국어 · 영어), 무의존성 자율신경 좌표 엔진(`src/coord/`), 그리고 1초 재현 벤치마크(`benchmark/`)가 함께 들어 있어요.
 
 - 📄 **논문 전문 읽기**: [한국어 논문 (`paper/context-coordinates.ko.md`)](paper/context-coordinates.ko.md) · [English Paper (`paper/context-coordinates.en.md`)](paper/context-coordinates.en.md) · **DOI**: [`10.5281/zenodo.23377916`](https://doi.org/10.5281/zenodo.23377916)
-- 🎬 **1분 핵심 개념 영상 (Overview Video)**: [`paper/context-coordinates-overview.mp4`](paper/context-coordinates-overview.mp4) *("AI sees through a small window — Fold what's done, unfold any of it, word for word.")*
+- 🎬 **1분 핵심 개념 영상 (YouTube)**: [**영상 보러 가기 (`youtu.be/LwF-UjvCUug`)**](https://youtu.be/LwF-UjvCUug) *("AI sees through a small window — Fold what's done, unfold any of it, word for word.")*
 
-Uploading context-coordinates-overview.mp4…
-
-
+[![Context Lattice — 1분 핵심 개념 영상 (YouTube)](https://img.youtube.com/vi/LwF-UjvCUug/maxresdefault.jpg)](https://youtu.be/LwF-UjvCUug)
 
 ---
 
@@ -102,7 +100,6 @@ npm run benchmark
 
 - [`paper/context-coordinates.ko.md`](paper/context-coordinates.ko.md) — 한국어 논문 전문
 - [`paper/context-coordinates.en.md`](paper/context-coordinates.en.md) — 영어 논문 전문 (English full paper)
-- [`paper/context-coordinates-overview.mp4`](paper/context-coordinates-overview.mp4) — 1분 핵심 개념 영상 (Overview video)
 - [`src/coord/`](src/coord/) — 자율신경 좌표 엔진 (`notation.mjs`, `stamp.mjs`, `lint.mjs`, `render.mjs`, `read/`)
 - [`test/`](test/) — 정준 좌표 표기법 · 보존 등식 · 비식별 실제 기록 스켈레톤(347줄) 검증 시험
 - [`benchmark/benchmark_paper.mjs`](benchmark/benchmark_paper.mjs) — 논문 4절 벤치마크 재현 스크립트

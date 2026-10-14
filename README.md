@@ -9,7 +9,9 @@
 This repository contains the full research paper (in English and Korean), the deterministic coordinate engine (`src/coord/`), and the one-second reproducible benchmark suite (`benchmark/`).
 
 - 📄 **Read the Full Paper**: [English Paper (`paper/context-coordinates.en.md`)](paper/context-coordinates.en.md) · [한국어 논문 (`paper/context-coordinates.ko.md`)](paper/context-coordinates.ko.md) · **DOI**: [`10.5281/zenodo.23377916`](https://doi.org/10.5281/zenodo.23377916)
-- 🎬 **1-Minute Overview Video**: [`paper/context-coordinates-overview.mp4`](paper/context-coordinates-overview.mp4) *("AI sees through a small window — Fold what's done, unfold any of it, word for word.")*
+- 🎬 **1-Minute Overview Video (YouTube)**: [**Watch on YouTube (`youtu.be/LwF-UjvCUug`)**](https://youtu.be/LwF-UjvCUug) *("AI sees through a small window — Fold what's done, unfold any of it, word for word.")*
+
+[![Context Lattice — 1-Minute Overview Video (YouTube)](https://img.youtube.com/vi/LwF-UjvCUug/maxresdefault.jpg)](https://youtu.be/LwF-UjvCUug)
 
 ---
 
@@ -98,7 +100,6 @@ npm run benchmark
 
 - [`paper/context-coordinates.en.md`](paper/context-coordinates.en.md) — Full research paper in English
 - [`paper/context-coordinates.ko.md`](paper/context-coordinates.ko.md) — Full research paper in Korean (한국어 원문)
-- [`paper/context-coordinates-overview.mp4`](paper/context-coordinates-overview.mp4) — 1-minute overview video
 - [`src/coord/`](src/coord/) — Deterministic autonomic coordinate engine (`notation.mjs`, `stamp.mjs`, `lint.mjs`, `render.mjs`, `read/`)
 - [`test/`](test/) — Conformance test suite and anonymized text-free 347-item real-session skeleton (`real-record.json`)
 - [`benchmark/benchmark_paper.mjs`](benchmark/benchmark_paper.mjs) — Reproducible benchmark suite for Section 4
